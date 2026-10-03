@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**BattleAgainstBrainrot** is a responsive, web-based daily puzzle application designed to actively combat the cognitive effects of digital overstimulation—commonly referred to as "brainrot." Rather than restricting access to devices through punitive measures, BattleAgainstBrainrot introduces an elegant, gamified alternative: tile-matching logic puzzles presented in a calming, meditative interface. By substituting cheap dopamine loops with sustained, rewarding cognitive engagement, the app helps users rebuild their attention spans through consistent daily practice.
+**BattleAgainstBrainrot** is a responsive, web-based daily puzzle application designed to actively combat the cognitive effects of digital overstimulation—commonly referred to as "brainrot." Rather than restricting access to devices, which is often met with resistance, BattleAgainstBrainrot goes with a gamified alternative: tile-matching logic puzzles presented in a calming, meditative interface. By substituting cheap dopamine loops with sustained, rewarding cognitive engagement, the app helps users rebuild their attention spans through consistent daily practice. Plus, who doesn't like a streaks leaderboard for encouragement? 
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### The Crisis of Digital Attention Fragmentation
 
-In the modern digital landscape, the rise of short-form micro-content has fundamentally shifted consumer habits. Platforms optimized for rapid-fire video consumption leverage hyper-stimulating algorithms designed to maximize immediate user engagement, creating what internet culture terms "brainrot"—a state of serotonin loop fatigue where continuous, low-effort neurological rewards systematically erode an individual's capacity for sustained focus.
+In the modern digital landscape, the rise of short-form micro-content has altered how we spend our time. Platforms optimized for rapid-fire video consumption leverage hyper-stimulating algorithms designed to maximize immediate user engagement, creating what internet culture terms "brainrot"—a state of serotonin loop fatigue where continuous, low-effort neurological rewards erode an individual's capacity for sustained focus.
 
 ### Documented Consequences
 
@@ -18,15 +18,15 @@ In the modern digital landscape, the rise of short-form micro-content has fundam
 
 **Increased Mental Restlessness:** Consumers actively dealing with digital overstimulation report elevated baseline anxiety and a distinct inability to tolerate brief periods of boredom without reaching for a mobile device. This creates a feedback loop where discomfort with quiet moments drives further consumption.
 
-**Inadequacy of Existing Solutions:** Current market solutions are primarily defensive. Screentime blockers and website restrictions rely heavily on user willpower and feel inherently punitive. They penalize negative behavior rather than cultivating positive, restorative cognitive habits.
+**Inadequacy of Existing Solutions:** Current market solutions are primarily defensive. Screen time blockers and website restrictions rely heavily on user willpower and feel inherently punitive. They penalize negative behavior rather than cultivating positive habits, we cannot fight against a reward system with negative reinforcement.
 
 ### The Community Impacted
 
-This problem disproportionately affects individuals across diverse contexts who depend on sustained attention for productivity and well-being. Digital overstimulation impacts students managing academic workloads, professionals in remote and hybrid work environments, and households where parents and educators seek tools to help younger users develop healthy cognitive practices.
+This problem disproportionately affects individuals who are socially or physically isolated. Digital overstimulation impacts students managing academic workloads, professionals in remote and hybrid work environments, and anyone who can no longer enjoy a long movie because it doesn't hold there attention.
 
 ### Why This Matters
 
-The ability to maintain focus is a foundational cognitive skill tied to academic success, professional achievement, and mental well-being. Without active intervention, the trend toward fragmented attention threatens both individual potential and societal capacity for complex problem-solving. **An engaging alternative to brainrot is not a luxury—it's a necessity.**
+The ability to maintain focus is a foundational cognitive skill tied to academic success, professional achievement, and mental well-being. Without active intervention, the trend toward fragmented attention threatens both individual potential and societal capacity for complex problem-solving. **Certainly, this isn't some silver bullet. It's just a little puzzle game meant to make people more fulfilled than doomscrolling. **
 
 ---
 
@@ -48,7 +48,7 @@ The ability to maintain focus is a foundational cognitive skill tied to academic
 | **Hyper-stimulation & short attention spans** | Clean, distraction-free interface with ambient music; no flashing lights or aggressive timers |
 | **Low-effort dopamine dependency** | Requires sustained problem-solving; rewards incremental progress and consistency over speed |
 | **Lack of motivation to redirect habits** | Gamified streak system and community leaderboard provide intrinsic and social motivation without punitive messaging |
-| **One-size-fits-all approach fails** | Responsive design + variable difficulty scaling allow users to select their cognitive comfort level |
+| **One-size-fits-all approach fails** | Responsive design + variable difficulty scaling allow users to select their own difficulty level |
 
 ### Why This Solution Is Feasible
 
@@ -195,7 +195,7 @@ The engineering stack prioritizes **high interoperability**, **rapid prototyping
 | Component | Choice | Rationale |
 |-----------|--------|-----------|
 | **Front-End** | HTML5 / CSS3 / JavaScript (vanilla or lightweight framework) | Zero compilation overhead; runs anywhere; familiar to all team members |
-| **Back-End** | Java (Spring Boot) or Go (Gin/Echo) | Strong ecosystem for REST APIs, authentication libraries, and database drivers; appropriate for academic timeline |
+| **Back-End** | Java or Go  | Strong ecosystem for REST APIs, authentication libraries, and database drivers; appropriate for academic timeline |
 | **Database** | PostgreSQL (primary) or SQLite (MVP backup) | Mature, reliable, and available on most cloud platforms; strong data integrity guarantees |
 | **Authentication** | JWT tokens + bcrypt/Argon2 | Industry-standard, implementable without external services |
 | **Version Control** | GitHub | Native integration with project board, CI/CD, and team workflow |
@@ -203,7 +203,7 @@ The engineering stack prioritizes **high interoperability**, **rapid prototyping
 | **Hosting** | TBD (GitHub Pages + cloud backend) | Flexible, scalable, and cost-effective for academic projects |
 
 ### Technology Flexibility
-- **Front-End Framework:** If team votes to use React, Vue, or Svelte, the architecture remains unchanged; only build tooling is added.
+- **Front-End Framework:** If team votes to use React, Vue, etc, the architecture remains unchanged; only build tooling is added.
 - **Back-End Language:** Go is lighter-weight; Java has larger ecosystem. Decision made in Week 1 after team assessment.
 - **Database:** SQLite acceptable for MVP if cloud database setup proves too complex; migrate to PostgreSQL in stretch phase.
 
@@ -242,11 +242,11 @@ The engineering stack prioritizes **high interoperability**, **rapid prototyping
 
 ### Agile Methodology Overview
 
-The team operates under a **hybrid Scrum/Kanban framework**:
+The team operates under an **Agile framework**:
 
-- **Weekly Planning Sessions:** Team reviews upcoming sprint, estimates effort, and team members **self-assign issues** from the GitHub Project board.
+- **Team members **self-assign issues** from the GitHub Project board.
 - **Bi-Weekly Sync Meetings:** Blockers identified, integration challenges resolved, and sprint progress reviewed.
-- **Code Review Culture:** Every PR requires at least one peer approval; Release Engineer performs final sign-off.
+- **Code Review Culture:** Every PR requires at least one peer approval.
 
 ### Distributed Responsibilities
 
@@ -254,7 +254,9 @@ Each team member holds a **technical ownership area** and contributes to **proje
 
 ---
 
-### 👤 Member 1: Authentication System & Scrum Master
+General roles to be adapted based on specific team preference
+
+### 👤 Member 1: Authentication System & Meeting Manager
 
 **Technical Ownership:**
 - User account schema and database setup
@@ -314,12 +316,12 @@ Each team member holds a **technical ownership area** and contributes to **proje
 
 ### Team Collaboration Practices
 
-**Weekly In-Person Planning (1 hour):**
+**Bi-Weekly Planning (~30-60 minutes):**
 - Review sprint progress and blockers
 - Self-assign issues from backlog
 - Estimate effort and set weekly goals
 
-**Asynchronous Daily Updates (Slack):**
+**Asynchronous Updates (Slack):**
 - Quick status on blockers and progress
 
 **Pull Request Workflow:**
@@ -347,7 +349,7 @@ This proposal is formatted as a **client-facing, professional technical document
 - **Actionable detail:** Each section includes concrete, testable success criteria
 - **Transparency:** Stretch goals, risk factors, and flexible contingencies are clearly stated
 
-### Repository Organization
+### TBD-Repository Organization
 ```
 BattleAgainstBrainrot/
 ├── PROJECT_PROPOSAL.md          (this document)
@@ -370,7 +372,7 @@ BattleAgainstBrainrot/
 - **Respect peer expertise:** Each member owns their domain; support through code review
 - **Communicate early:** Blockers surfaced immediately when discovered
 - **Merge small, merge often:** PRs should be reviewable in <20 minutes
-- **Celebrate wins:** Weekly demo of progress maintains team momentum
+- **Celebrate wins:** Anytime we can show something off that's working, we should! Just post it in a team chat.
 
 ---
 
@@ -382,8 +384,7 @@ BattleAgainstBrainrot/
 
 1. **Extending MVP timelines** (Week 4 becomes Week 5)
 2. **Reducing stretch goals** in proportion to MVP delays
-3. **Redistributing workload** among team members
-4. **Deferring non-critical enhancements** to post-launch
+3. **Redistributing workload** among team members (In case of life events)
 
 ### Example Contingencies
 
@@ -409,7 +410,7 @@ BattleAgainstBrainrot/
 
 ### Final Delivery Acceptance Criteria (Week 10)
 - [ ] All MVP criteria met
-- [ ] At least 1–2 stretch goals implemented (based on timeline)
+- [ ] SOFT-At least 1–2 stretch goals implemented (based on timeline)
 - [ ] Cross-browser testing passed (Chrome, Firefox, Safari, Edge)
 - [ ] Basic performance validation (page load <3s, API response <300ms)
 - [ ] Zero critical bugs in production
@@ -420,11 +421,11 @@ BattleAgainstBrainrot/
 
 ## Conclusion
 
-**BattleAgainstBrainrot** is a well-scoped, technically feasible, and socially meaningful solution to a genuine problem affecting millions of knowledge workers and students. By combining proven game design principles (streaks, leaderboards) with meditative, low-stimulation mechanics, the app teaches users to reclaim their attention rather than punishing distraction.
+**BattleAgainstBrainrot** is a well-scoped, technically feasible, and socially meaningful solution to a genuine problem affecting millions of  workers and students. By combining proven game design principles (streaks, leaderboards) with meditative, low-stimulation mechanics, the app hopes to help users to reclaim their attention rather than punishing distraction.
 
 Within 10 weeks, a focused team can deliver a production-ready web application that demonstrates the viability of the concept and provides a foundation for future expansion. The adaptive MVP-first approach ensures that core features ship on time while stretch goals remain safely optional.
 
-**We are ready to build something that matters.**
+**Let's get Puzzlin'!**
 
 ---
 
@@ -446,11 +447,10 @@ All development tasks are tracked in the **GitHub Projects Kanban board** organi
 
 **Total: 25 actionable child issues across 5 epics**
 
-Each issue includes acceptance criteria and assigned owner. The board is updated continuously throughout the 10-week cycle; stakeholders can view progress at any time.
+Each issue includes acceptance criteria and an assigned owner. The board is updated continuously throughout the 10-week cycle; stakeholders can view progress at any time.
 
 ---
 
 **Document Version:** 2.0  
 **Last Updated:** 2026-10-03  
-**Prepared By:** MisterMeddler & Team  
-**Status:** Ready for Grading & Kickoff
+**Prepared By:** MisterMeddler (Wesley Reitz) using GitHub Copilot as well as Google Ai and Grammarly to populate issues and sub-issues, as well as formatting and citation creation.
