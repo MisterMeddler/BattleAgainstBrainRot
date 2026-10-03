@@ -35,7 +35,7 @@ The ability to maintain focus is a foundational cognitive skill tied to academic
 
 ### What We Will Build
 
-**BattleAgainstBrainrot** is a responsive web application offering daily tile-matching logic puzzles. Instead of aggressive restrictions or gameplay mechanics that encourage obsessive behavior, the app presents a **calming, meditative cognitive experience** that:
+**BattleAgainstBrainrot** is a responsive web application offering daily tile-matching logic puzzles (such as nurikabe puzzles). Instead of aggressive restrictions or gameplay mechanics that encourage obsessive behavior, the app presents a **calming, meditative cognitive experience** that:
 
 1. **Engages sustained attention** through structured logical problem-solving
 2. **Replaces stimulation-seeking loops** with intrinsic reward (puzzle completion, streak progression)
